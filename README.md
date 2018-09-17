@@ -4,7 +4,10 @@
 [![Github commits (since latest release)](https://img.shields.io/github/commits-since/mashirozx/Pixiv-Nginx/latest.svg?style=flat-square)](https://github.com/mashirozx/Pixiv-Nginx/commits/)
 
 请在[此处](https://github.com/mashirozx/Pixiv-Nginx/releases)下载最新版`Source code
-(zip)`。使用说明见 <https://2heng.xin/2017/09/19/pixiv/>
+(zip)`；或者在此页点击下图所示的按键下载。
+![](https://view.moezx.cc/images/2018/09/17/git.png)
+
+使用说明见 <https://2heng.xin/2017/09/19/pixiv/>
 
 ### 要饭
 
