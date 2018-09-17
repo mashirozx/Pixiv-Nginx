@@ -1,0 +1,71 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 5 (0x5)
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=CN, ST=Shanghai, L=Shanghai, O=Mashiro LLC, OU=Mashiro, CN=Mashiro Internet Authority CA
+        Validity
+            Not Before: Sep 16 16:57:32 2018 GMT
+            Not After : Sep 13 16:57:32 2028 GMT
+        Subject: C=CN, ST=Shanghai, O=Mashiro LLC, OU=Mashiro, CN=*.pixiv.net
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:a9:84:77:44:2f:77:cf:5a:de:59:4c:ce:15:c1:
+                    bc:db:6d:43:1e:6f:f2:2e:46:f5:a4:74:bc:f6:92:
+                    60:77:b2:cd:79:bf:d7:65:2b:54:78:48:6d:ab:2f:
+                    6b:f8:63:c1:69:a1:1d:b2:b5:78:e4:2b:b7:ad:62:
+                    d6:14:aa:7a:24:97:72:d2:81:f7:e3:d7:b4:76:1f:
+                    94:de:74:5c:b0:b1:6c:31:21:2f:c4:3e:58:41:3b:
+                    ab:06:e5:8a:28:80:fd:c3:a1:b5:dc:db:c7:4f:62:
+                    bd:cc:ff:ee:b5:e9:21:5f:9b:88:20:ab:c3:36:f9:
+                    82:22:3c:88:6e:d9:69:cd:ad:c0:2b:5e:19:68:e7:
+                    ff:2a:64:90:24:32:07:ab:2c:67:a9:ab:2d:75:ef:
+                    85:26:df:37:67:c3:53:31:0e:9c:8c:58:aa:24:f3:
+                    e2:5f:2b:1c:fc:72:45:34:94:9b:b4:69:cb:ef:a3:
+                    6d:8f:f7:ab:4c:83:77:84:e8:ac:e6:b7:17:58:e8:
+                    c2:47:ce:08:35:32:9a:45:79:15:e4:f4:07:92:ee:
+                    79:64:cc:41:6b:5d:a4:4c:46:72:2f:5a:7a:66:38:
+                    df:3d:58:8f:02:79:4b:ea:0f:8b:0c:33:cc:41:79:
+                    0f:3c:16:91:0c:67:44:6d:42:7e:1c:cb:2f:d6:1f:
+                    6b:fb
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Subject Alternative Name: 
+                DNS:*.pixiv.net, DNS:pixiv.net, DNS:*.secure.pixiv.net, DNS:pximg.net, DNS:*.pximg.net, DNS:wikipedia.org, DNS:*.wikipedia.org, DNS:google.com, DNS:*.google.com, IP Address:127.0.0.1
+            X509v3 Subject Key Identifier: 
+                A7:E1:07:03:F4:8A:62:A6:32:C3:98:CC:C1:3E:37:33:56:22:DA:21
+    Signature Algorithm: sha256WithRSAEncryption
+         8d:e9:35:fa:68:71:c0:12:f5:d1:4c:2a:91:29:96:e5:7c:26:
+         1c:05:66:29:31:42:c1:9f:fb:2f:6c:2f:47:20:1d:dd:d2:c4:
+         7f:4d:df:a6:0b:91:13:bc:38:28:87:aa:a5:f5:6b:88:fb:04:
+         92:ad:d2:3f:82:70:5e:de:e5:bd:74:f2:86:c0:22:61:61:30:
+         e1:02:02:1d:89:6d:97:38:cb:0b:32:bb:37:32:08:7f:5e:ab:
+         15:79:93:e6:8f:d0:40:78:5b:b0:a2:b0:d2:e5:04:01:65:74:
+         bf:57:42:ea:9c:5b:93:c6:96:26:34:bc:f0:d7:46:6a:ad:7c:
+         2f:92
+-----BEGIN CERTIFICATE-----
+MIIDnDCCAwWgAwIBAgIBBTANBgkqhkiG9w0BAQsFADCBgzELMAkGA1UEBhMCQ04x
+ETAPBgNVBAgMCFNoYW5naGFpMREwDwYDVQQHDAhTaGFuZ2hhaTEUMBIGA1UECgwL
+TWFzaGlybyBMTEMxEDAOBgNVBAsMB01hc2hpcm8xJjAkBgNVBAMMHU1hc2hpcm8g
+SW50ZXJuZXQgQXV0aG9yaXR5IENBMB4XDTE4MDkxNjE2NTczMloXDTI4MDkxMzE2
+NTczMlowXjELMAkGA1UEBhMCQ04xETAPBgNVBAgMCFNoYW5naGFpMRQwEgYDVQQK
+DAtNYXNoaXJvIExMQzEQMA4GA1UECwwHTWFzaGlybzEUMBIGA1UEAwwLKi5waXhp
+di5uZXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCphHdEL3fPWt5Z
+TM4VwbzbbUMeb/IuRvWkdLz2kmB3ss15v9dlK1R4SG2rL2v4Y8FpoR2ytXjkK7et
+YtYUqnokl3LSgffj17R2H5TedFywsWwxIS/EPlhBO6sG5YoogP3DobXc28dPYr3M
+/+616SFfm4ggq8M2+YIiPIhu2WnNrcArXhlo5/8qZJAkMgerLGepqy1174Um3zdn
+w1MxDpyMWKok8+JfKxz8ckU0lJu0acvvo22P96tMg3eE6KzmtxdY6MJHzgg1MppF
+eRXk9AeS7nlkzEFrXaRMRnIvWnpmON89WI8CeUvqD4sMM8xBeQ88FpEMZ0RtQn4c
+yy/WH2v7AgMBAAGjgb8wgbwwCQYDVR0TBAIwADCBjwYDVR0RBIGHMIGEggsqLnBp
+eGl2Lm5ldIIJcGl4aXYubmV0ghIqLnNlY3VyZS5waXhpdi5uZXSCCXB4aW1nLm5l
+dIILKi5weGltZy5uZXSCDXdpa2lwZWRpYS5vcmeCDyoud2lraXBlZGlhLm9yZ4IK
+Z29vZ2xlLmNvbYIMKi5nb29nbGUuY29thwR/AAABMB0GA1UdDgQWBBSn4QcD9Ipi
+pjLDmMzBPjczViLaITANBgkqhkiG9w0BAQsFAAOBgQCN6TX6aHHAEvXRTCqRKZbl
+fCYcBWYpMULBn/svbC9HIB3d0sR/Td+mC5ETvDgoh6ql9WuI+wSSrdI/gnBe3uW9
+dPKGwCJhYTDhAgIdiW2XOMsLMrs3Mgh/XqsVeZPmj9BAeFuworDS5QQBZXS/V0Lq
+nFuTxpYmNLzw10ZqrXwvkg==
+-----END CERTIFICATE-----
