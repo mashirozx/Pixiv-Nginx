@@ -1,20 +1,20 @@
-# Pixiv-Nginx
+ï»¿# Pixiv-Nginx
 
 [![GitHub release](https://img.shields.io/github/release/mashirozx/Pixiv-Nginx.svg?style=flat-square)](https://github.com/mashirozx/Pixiv-Nginx/releases/latest)
 [![Github commits (since latest release)](https://img.shields.io/github/commits-since/mashirozx/Pixiv-Nginx/latest.svg?style=flat-square)](https://github.com/mashirozx/Pixiv-Nginx/commits/)
 
+è¯·åœ¨[æ­¤å¤„](https://github.com/mashirozx/Pixiv-Nginx/releases)ä¸‹è½½æœ€æ–°ç‰ˆ`Source code
+(zip)`ã€‚ä½¿ç”¨è¯´æ˜è§ <https://2heng.xin/2017/09/19/pixiv/>
 
-Ê¹ÓÃËµÃ÷¼û <https://2heng.xin/2017/09/19/pixiv/>
+### è¦é¥­
 
-### Òª·¹
-
-Î¢ĞÅÖ§¸¶£º  
+å¾®ä¿¡æ”¯ä»˜ï¼š  
 <img src="https://view.moezx.cc/images/2018/05/28/WeChanQR.png" width="200"/>
 
-Ö§¸¶±¦£º  
+æ”¯ä»˜å®ï¼š  
 <img src="https://view.moezx.cc/images/2018/05/28/AliPayQR.jpg" width="200"/>
 
-PayPal£º
+PayPalï¼š
 <https://paypal.me/mashirozx>
 
 ### Lisence
