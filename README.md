@@ -22,3 +22,5 @@ PayPal：
 
 ### Lisence
 This is a fork of [nginx/nginx](https://github.com/nginx/nginx), so you should always follow its [2-clause BSD-like license](http://nginx.org/LICENSE).
+
+The visualized management tool is part of [wnmp/wnmp](https://github.com/wnmp/wnmp).
