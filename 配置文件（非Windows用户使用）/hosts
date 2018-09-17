@@ -12,11 +12,11 @@
 127.0.0.1       factory.pixiv.net 
 127.0.0.1       comic.pixiv.net  
 127.0.0.1       novel.pixiv.net 
+127.0.0.1       imgaz.pixiv.net 
 127.0.0.1       sensei.pixiv.net
 127.0.0.1       fanbox.pixiv.net
 127.0.0.1       i.pximg.net
 210.140.131.145 source.pixiv.net
-210.140.131.147 imgaz.pixiv.net 
 210.129.120.50  app-api.pixiv.net  
 74.120.148.207  g-client-proxy.pixiv.net 
 210.140.131.145 i1.pixiv.net 
