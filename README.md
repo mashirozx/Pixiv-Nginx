@@ -9,13 +9,7 @@
 (zip)`；或者在此页点击下图所示的按键下载。
 ![](https://view.moezx.cc/images/2018/09/17/git.png)
 
-如遇此页下载速度过慢，可尝试改用GitHub香港服务器——添加以下hosts：
-```
-13.229.188.59 github.com
-13.250.177.223 github.com
-151.101.196.133 assets-cdn.github.com
-151.101.24.133 assets-cdn.github.com
-```
+如遇此页下载速度过慢，可尝试使用 [Github 下载加速工具](https://www.toolnb.com/tools/githubjiasu.html)。
 
 ### 打赏~
 [微信支付](https://view.moezx.cc/images/2018/05/28/WeChanQR.png) | [支付宝](https://view.moezx.cc/images/2018/05/28/AliPayQR.jpg) | [PayPal](https://paypal.me/mashirozx)
