@@ -17,16 +17,8 @@
 151.101.24.133 assets-cdn.github.com
 ```
 
-### 要饭
-
-微信支付：  
-<img src="https://view.moezx.cc/images/2018/05/28/WeChanQR.png" width="200"/>
-
-支付宝：  
-<img src="https://view.moezx.cc/images/2018/05/28/AliPayQR.jpg" width="200"/>
-
-PayPal：
-<https://paypal.me/mashirozx>
+### 打赏~
+[微信支付](https://view.moezx.cc/images/2018/05/28/WeChanQR.png) | [支付宝](https://view.moezx.cc/images/2018/05/28/AliPayQR.jpg) | [PayPal](https://paypal.me/mashirozx)
 
 ### LICENSE
 This is a fork of [nginx/nginx](https://github.com/nginx/nginx), so you should always follow its [2-clause BSD-like license](http://nginx.org/LICENSE).
