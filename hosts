@@ -1,4 +1,4 @@
-﻿#本地化的登陆/注册界面的人机验证插件
+﻿#www.google.com域名仅用于登陆验证
 #如果你不需要这个功能，请把下一行删掉
 127.0.0.1       www.google.com
 
@@ -34,10 +34,19 @@
 
 # 顺手修一下维基百科
 # Wikipedia Start
+127.0.0.1 en.wikipedia.org
 127.0.0.1 zh.wikipedia.org #中文维基百科桌面版
+127.0.0.1 en.m.wikipedia.org
+127.0.0.1 zh.m.wikipedia.org
 127.0.0.1 zh-yue.wikipedia.org #粤文维基百科桌面版
 127.0.0.1 wuu.wikipedia.org #吴语维基百科桌面版
 127.0.0.1 ug.wikipedia.org #维吾尔文维基百科桌面版
 127.0.0.1 ja.wikipedia.org #日文维基百科桌面版
 127.0.0.1 zh.wikinews.org #中文维基新闻桌面版
 # Wikipedia End
+
+# 顺手修一下Steam
+# Steam
+127.0.0.1 store.steampowered.com
+127.0.0.1 steamcommunity.com
+# Steam end
