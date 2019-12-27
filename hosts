@@ -68,12 +68,19 @@
 127.0.0.1       hlsc4.pixivsketch.net
 127.0.0.1       hlsc5.pixivsketch.net
 127.0.0.1       hlsc6.pixivsketch.net
+127.0.0.1       hlse1.pixivsketch.net
+127.0.0.1       hlse2.pixivsketch.net
+127.0.0.1       hlse3.pixivsketch.net
+127.0.0.1       hlse4.pixivsketch.net
 127.0.0.1       hlst1.pixivsketch.net
+127.0.0.1       i.pximg.net
 210.129.120.50  app-api.pixiv.net  
-74.120.148.207  g-client-proxy.pixiv.net 
+13.224.161.82  g-client-proxy.pixiv.net 
 210.140.131.159 d.pixiv.org 
-210.140.92.135  pixiv.pximg.net  
-210.140.92.134  s.pximg.net
+210.140.92.140  pixiv.pximg.net  
+210.140.92.139  s.pximg.net
+210.140.131.246  api.booth.pm
+210.140.131.219  myaccount.pixiv.net
 #Pixiv End
 
 # 顺手修一下维基百科
