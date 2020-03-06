@@ -101,3 +101,7 @@
 127.0.0.1 store.steampowered.com
 127.0.0.1 steamcommunity.com
 # Steam end
+
+# 新增对Archive of our own的支持
+127.0.0.1 archiveofourown.org
+# Archive of our own end
