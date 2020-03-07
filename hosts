@@ -1,4 +1,5 @@
-﻿#www.google.com域名仅用于登陆验证
+#UTF-8 encoded 
+#www.google.com域名仅用于登陆验证
 #如果你不需要这个功能，请把下一行删掉
 127.0.0.1       www.google.com
 
