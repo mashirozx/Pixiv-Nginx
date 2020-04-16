@@ -1,7 +1,263 @@
 
-Changes with nginx 1.14.0                                        17 Apr 2018
+Changes with nginx 1.16.1                                        13 Aug 2019
 
-    *) 1.14.x stable branch.
+    *) Security: when using HTTP/2 a client might cause excessive memory
+       consumption and CPU usage (CVE-2019-9511, CVE-2019-9513,
+       CVE-2019-9516).
+
+
+Changes with nginx 1.16.0                                        23 Apr 2019
+
+    *) 1.16.x stable branch.
+
+
+Changes with nginx 1.15.12                                       16 Apr 2019
+
+    *) Bugfix: a segmentation fault might occur in a worker process if
+       variables were used in the "ssl_certificate" or "ssl_certificate_key"
+       directives and OCSP stapling was enabled.
+
+
+Changes with nginx 1.15.11                                       09 Apr 2019
+
+    *) Bugfix: in the "ssl_stapling_file" directive on Windows.
+
+
+Changes with nginx 1.15.10                                       26 Mar 2019
+
+    *) Change: when using a hostname in the "listen" directive nginx now
+       creates listening sockets for all addresses the hostname resolves to
+       (previously, only the first address was used).
+
+    *) Feature: port ranges in the "listen" directive.
+
+    *) Feature: loading of SSL certificates and secret keys from variables.
+
+    *) Workaround: the $ssl_server_name variable might be empty when using
+       OpenSSL 1.1.1.
+
+    *) Bugfix: nginx/Windows could not be built with Visual Studio 2015 or
+       newer; the bug had appeared in 1.15.9.
+
+
+Changes with nginx 1.15.9                                        26 Feb 2019
+
+    *) Feature: variables support in the "ssl_certificate" and
+       "ssl_certificate_key" directives.
+
+    *) Feature: the "poll" method is now available on Windows when using
+       Windows Vista or newer.
+
+    *) Bugfix: if the "select" method was used on Windows and an error
+       occurred while establishing a backend connection, nginx waited for
+       the connection establishment timeout to expire.
+
+    *) Bugfix: the "proxy_upload_rate" and "proxy_download_rate" directives
+       in the stream module worked incorrectly when proxying UDP datagrams.
+
+
+Changes with nginx 1.15.8                                        25 Dec 2018
+
+    *) Feature: the $upstream_bytes_sent variable.
+       Thanks to Piotr Sikora.
+
+    *) Feature: new directives in vim syntax highlighting scripts.
+       Thanks to Gena Makhomed.
+
+    *) Bugfix: in the "proxy_cache_background_update" directive.
+
+    *) Bugfix: in the "geo" directive when using unix domain listen sockets.
+
+    *) Workaround: the "ignoring stale global SSL error ... bad length"
+       alerts might appear in logs when using the "ssl_early_data" directive
+       with OpenSSL.
+
+    *) Bugfix: in nginx/Windows.
+
+    *) Bugfix: in the ngx_http_autoindex_module on 32-bit platforms.
+
+
+Changes with nginx 1.15.7                                        27 Nov 2018
+
+    *) Feature: the "proxy_requests" directive in the stream module.
+
+    *) Feature: the "delay" parameter of the "limit_req" directive.
+       Thanks to Vladislav Shabanov and Peter Shchuchkin.
+
+    *) Bugfix: memory leak on errors during reconfiguration.
+
+    *) Bugfix: in the $upstream_response_time, $upstream_connect_time, and
+       $upstream_header_time variables.
+
+    *) Bugfix: a segmentation fault might occur in a worker process if the
+       ngx_http_mp4_module was used on 32-bit platforms.
+
+
+Changes with nginx 1.15.6                                        06 Nov 2018
+
+    *) Security: when using HTTP/2 a client might cause excessive memory
+       consumption (CVE-2018-16843) and CPU usage (CVE-2018-16844).
+
+    *) Security: processing of a specially crafted mp4 file with the
+       ngx_http_mp4_module might result in worker process memory disclosure
+       (CVE-2018-16845).
+
+    *) Feature: the "proxy_socket_keepalive", "fastcgi_socket_keepalive",
+       "grpc_socket_keepalive", "memcached_socket_keepalive",
+       "scgi_socket_keepalive", and "uwsgi_socket_keepalive" directives.
+
+    *) Bugfix: if nginx was built with OpenSSL 1.1.0 and used with OpenSSL
+       1.1.1, the TLS 1.3 protocol was always enabled.
+
+    *) Bugfix: working with gRPC backends might result in excessive memory
+       consumption.
+
+
+Changes with nginx 1.15.5                                        02 Oct 2018
+
+    *) Bugfix: a segmentation fault might occur in a worker process when
+       using OpenSSL 1.1.0h or newer; the bug had appeared in 1.15.4.
+
+    *) Bugfix: of minor potential bugs.
+
+
+Changes with nginx 1.15.4                                        25 Sep 2018
+
+    *) Feature: now the "ssl_early_data" directive can be used with OpenSSL.
+
+    *) Bugfix: in the ngx_http_uwsgi_module.
+       Thanks to Chris Caputo.
+
+    *) Bugfix: connections with some gRPC backends might not be cached when
+       using the "keepalive" directive.
+
+    *) Bugfix: a socket leak might occur when using the "error_page"
+       directive to redirect early request processing errors, notably errors
+       with code 400.
+
+    *) Bugfix: the "return" directive did not change the response code when
+       returning errors if the request was redirected by the "error_page"
+       directive.
+
+    *) Bugfix: standard error pages and responses of the
+       ngx_http_autoindex_module module used the "bgcolor" attribute, and
+       might be displayed incorrectly when using custom color settings in
+       browsers.
+       Thanks to Nova DasSarma.
+
+    *) Change: the logging level of the "no suitable key share" and "no
+       suitable signature algorithm" SSL errors has been lowered from "crit"
+       to "info".
+
+
+Changes with nginx 1.15.3                                        28 Aug 2018
+
+    *) Feature: now TLSv1.3 can be used with BoringSSL.
+
+    *) Feature: the "ssl_early_data" directive, currently available with
+       BoringSSL.
+
+    *) Feature: the "keepalive_timeout" and "keepalive_requests" directives
+       in the "upstream" block.
+
+    *) Bugfix: the ngx_http_dav_module did not truncate destination file
+       when copying a file over an existing one with the COPY method.
+
+    *) Bugfix: the ngx_http_dav_module used zero access rights on the
+       destination file and did not preserve file modification time when
+       moving a file between different file systems with the MOVE method.
+
+    *) Bugfix: the ngx_http_dav_module used default access rights when
+       copying a file with the COPY method.
+
+    *) Workaround: some clients might not work when using HTTP/2; the bug
+       had appeared in 1.13.5.
+
+    *) Bugfix: nginx could not be built with LibreSSL 2.8.0.
+
+
+Changes with nginx 1.15.2                                        24 Jul 2018
+
+    *) Feature: the $ssl_preread_protocol variable in the
+       ngx_stream_ssl_preread_module.
+
+    *) Feature: now when using the "reset_timedout_connection" directive
+       nginx will reset connections being closed with the 444 code.
+
+    *) Change: a logging level of the "http request", "https proxy request",
+       "unsupported protocol", and "version too low" SSL errors has been
+       lowered from "crit" to "info".
+
+    *) Bugfix: DNS requests were not resent if initial sending of a request
+       failed.
+
+    *) Bugfix: the "reuseport" parameter of the "listen" directive was
+       ignored if the number of worker processes was specified after the
+       "listen" directive.
+
+    *) Bugfix: when using OpenSSL 1.1.0 or newer it was not possible to
+       switch off "ssl_prefer_server_ciphers" in a virtual server if it was
+       switched on in the default server.
+
+    *) Bugfix: SSL session reuse with upstream servers did not work with the
+       TLS 1.3 protocol.
+
+
+Changes with nginx 1.15.1                                        03 Jul 2018
+
+    *) Feature: the "random" directive inside the "upstream" block.
+
+    *) Feature: improved performance when using the "hash" and "ip_hash"
+       directives with the "zone" directive.
+
+    *) Feature: the "reuseport" parameter of the "listen" directive now uses
+       SO_REUSEPORT_LB on FreeBSD 12.
+
+    *) Bugfix: HTTP/2 server push did not work if SSL was terminated by a
+       proxy server in front of nginx.
+
+    *) Bugfix: the "tcp_nopush" directive was always used on backend
+       connections.
+
+    *) Bugfix: sending a disk-buffered request body to a gRPC backend might
+       fail.
+
+
+Changes with nginx 1.15.0                                        05 Jun 2018
+
+    *) Change: the "ssl" directive is deprecated; the "ssl" parameter of the
+       "listen" directive should be used instead.
+
+    *) Change: now nginx detects missing SSL certificates during
+       configuration testing when using the "ssl" parameter of the "listen"
+       directive.
+
+    *) Feature: now the stream module can handle multiple incoming UDP
+       datagrams from a client within a single session.
+
+    *) Bugfix: it was possible to specify an incorrect response code in the
+       "proxy_cache_valid" directive.
+
+    *) Bugfix: nginx could not be built by gcc 8.1.
+
+    *) Bugfix: logging to syslog stopped on local IP address changes.
+
+    *) Bugfix: nginx could not be built by clang with CUDA SDK installed;
+       the bug had appeared in 1.13.8.
+
+    *) Bugfix: "getsockopt(TCP_FASTOPEN) ... failed" messages might appear
+       in logs during binary upgrade when using unix domain listen sockets
+       on FreeBSD.
+
+    *) Bugfix: nginx could not be built on Fedora 28 Linux.
+
+    *) Bugfix: request processing rate might exceed configured rate when
+       using the "limit_req" directive.
+
+    *) Bugfix: in handling of client addresses when using unix domain listen
+       sockets to work with datagrams on Linux.
+
+    *) Bugfix: in memory allocation error handling.
 
 
 Changes with nginx 1.13.12                                       10 Apr 2018
