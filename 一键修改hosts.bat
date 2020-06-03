@@ -1,5 +1,11 @@
+%1 mshta vbscript:CreateObject("Shell.Application").ShellExecute("cmd.exe","/c %~s0 ::","","runas",1)(window.close)&&exit
 @echo. >>C:\Windows\System32\Drivers\etc\hosts
+@echo # 以下Hosts内容来自Pixiv-Nginx项目（https://github.com/mashirozx/Pixiv-Nginx） >>C:\Windows\System32\Drivers\etc\hosts
+@echo # Hosts start. >>C:\Windows\System32\Drivers\etc\hosts
+@echo # www.google.com域名仅用于登陆验证 >>C:\Windows\System32\Drivers\etc\hosts
+@echo # 如果你不需要这个功能，请把下一行删掉 >>C:\Windows\System32\Drivers\etc\hosts
 @echo 127.0.0.1 www.google.com >>C:\Windows\System32\Drivers\etc\hosts
+@echo # Pixiv Start  >>C:\Windows\System32\Drivers\etc\hosts
 @echo 127.0.0.1 pixiv.net >>C:\Windows\System32\Drivers\etc\hosts  
 @echo 127.0.0.1 www.pixiv.net >>C:\Windows\System32\Drivers\etc\hosts  
 @echo 127.0.0.1 ssl.pixiv.net >>C:\Windows\System32\Drivers\etc\hosts 
@@ -76,13 +82,14 @@
 @echo 127.0.0.1 hlse9.pixivsketch.net >>C:\Windows\System32\Drivers\etc\hosts 
 @echo 127.0.0.1 hlst1.pixivsketch.net >>C:\Windows\System32\Drivers\etc\hosts 
 @echo 127.0.0.1 i.pximg.net >>C:\Windows\System32\Drivers\etc\hosts 
-@echo  210.140.131.220  app-api.pixiv.net >>C:\Windows\System32\Drivers\etc\hosts   
+@echo 210.140.131.220  app-api.pixiv.net >>C:\Windows\System32\Drivers\etc\hosts   
 @echo 13.226.113.16    g-client-proxy.pixiv.net >>C:\Windows\System32\Drivers\etc\hosts  
 @echo 210.140.131.159 d.pixiv.org  >>C:\Windows\System32\Drivers\etc\hosts 
 @echo 210.140.92.140  pixiv.pximg.net >>C:\Windows\System32\Drivers\etc\hosts   
 @echo 210.140.92.139  s.pximg.net >>C:\Windows\System32\Drivers\etc\hosts 
 @echo 210.140.131.246  api.booth.pm  >>C:\Windows\System32\Drivers\etc\hosts
 @echo 210.140.131.220  myaccount.pixiv.net >>C:\Windows\System32\Drivers\etc\hosts 
+@echo # Wikipedia Start  >>C:\Windows\System32\Drivers\etc\hosts
 @echo 127.0.0.1  en.wikipedia.org  >>C:\Windows\System32\Drivers\etc\hosts
 @echo 127.0.0.1  zh.wikipedia.org #中文维基百科桌面版  >>C:\Windows\System32\Drivers\etc\hosts
 @echo 127.0.0.1  en.m.wikipedia.org  >>C:\Windows\System32\Drivers\etc\hosts
@@ -92,6 +99,9 @@
 @echo 127.0.0.1  ug.wikipedia.org #维吾尔文维基百科桌面版  >>C:\Windows\System32\Drivers\etc\hosts
 @echo 127.0.0.1  ja.wikipedia.org #日文维基百科桌面版  >>C:\Windows\System32\Drivers\etc\hosts
 @echo 127.0.0.1  zh.wikinews.org #中文维基新闻桌面版  >>C:\Windows\System32\Drivers\etc\hosts
+@echo # Steam  >>C:\Windows\System32\Drivers\etc\hosts
 @echo 127.0.0.1  store.steampowered.com  >>C:\Windows\System32\Drivers\etc\hosts
 @echo 127.0.0.1  steamcommunity.com  >>C:\Windows\System32\Drivers\etc\hosts
+@echo # Archive of our own  >>C:\Windows\System32\Drivers\etc\hosts
 @echo 127.0.0.1  archiveofourown.org  >>C:\Windows\System32\Drivers\etc\hosts
+@echo # Hosts end. >>C:\Windows\System32\Drivers\etc\hosts
