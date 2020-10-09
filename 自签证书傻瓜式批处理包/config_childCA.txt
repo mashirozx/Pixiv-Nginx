@@ -1,0 +1,46 @@
+[ req ]
+default_bits				= 2048
+
+prompt					= no
+distinguished_name			= req_distinguished_name
+req_extensions				= v3_req
+
+[ req_distinguished_name ]
+countryName				= CN
+organizationName			= FuckGFW Foundation
+commonName				= PixivCA
+
+[ alternate_names ]
+DNS.01 = *.pixiv.net
+DNS.02 = pixiv.net
+DNS.03 = *.secure.pixiv.net
+DNS.04 = pixivision.net
+DNS.05 = *.pixivision.net
+DNS.06 = pixiv.me
+DNS.07 = *.pixiv.me
+DNS.08 = pximg.net
+DNS.09 = *.pximg.net
+DNS.10 = pixivsketch.net
+DNS.11 = *.pixivsketch.net
+DNS.12 = public-api.secure.pixiv.net
+DNS.13 = wikipedia.org
+DNS.14 = *.wikipedia.org
+DNS.15 = m.wikipedia.org
+DNS.16 = *.m.wikipedia.org
+DNS.17 = google.com
+DNS.18 = *.google.com
+DNS.19 = steamcommunity.com
+DNS.20 = *.steamcommunity.com
+DNS.21 = steampowered.com
+DNS.22 = *.steampowered.com
+DNS.23 = archiveofourown.org
+DNS.24 = *.archiveofourown.org
+DNS.25 = nyaa.si
+DNS.26 = *.nyaa.si
+
+[ v3_req ]
+keyUsage				= digitalSignature
+extendedKeyUsage			= serverAuth,clientAuth
+basicConstraints			= CA:false
+subjectAltName				= @alternate_names
+subjectKeyIdentifier			= hash

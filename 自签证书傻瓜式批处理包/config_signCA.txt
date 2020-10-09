@@ -1,0 +1,24 @@
+[ ca ]
+default_ca		= myca
+
+[ myca ]
+serial			= ./crtserial.srl
+database		= ./index.txt
+new_certs_dir		= ./
+certificate		= ./rootCA.crt
+private_key		= ./rootCA.key
+default_md		= sha256
+default_days		= 365
+unique_subject		= no
+policy			= my_policy
+copy_extensions		= copy
+
+
+[ my_policy ]
+countryName		= optional
+stateOrProvinceName	= optional
+localityName		= optional
+organizationName	= optional
+organizationalUnitName	= optional
+commonName		= supplied
+emailAddress		= optional
