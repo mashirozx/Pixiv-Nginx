@@ -1,0 +1,5 @@
+1.下载 OpenSSL（https://slproweb.com/products/Win32OpenSSL.html）安装，设置为「环境变量」（自行百度，只要在CMD中输入openssl有反应就行，而不是「'openssl' 不是内部或外部命令，也不是可运行的程序或批处理文件」）。
+
+2.第一次使用时直接使用「【限初次使用】一键生成根证书和子证书.bat」并将rootCA.crt安装到系统受信任的根证书列表即可，生成的Pixiv.key和Pixiv.crt可替换软件自带的CA。
+
+3.需要添加域名时打开「config_childCA.txt」加入，完后使用「【修改config_childCA.txt后使用】重新签发子证书.bat」只需将新生成的Pixiv.crt替换Nginx目录原先的文件即可。

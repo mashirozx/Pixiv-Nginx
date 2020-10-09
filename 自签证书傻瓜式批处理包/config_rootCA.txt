@@ -1,0 +1,17 @@
+[ req ]
+default_bits			= 2048
+
+prompt				= no
+distinguished_name		= req_distinguished_name
+v3_extensions			= v3_ext
+
+[ req_distinguished_name ]
+countryName			= CN
+organizationName		= FuckGFW Foundation
+commonName			= Pixiv.net
+
+[ v3_ext ]
+keyUsage			= keyCertSign,cRLSign
+basicConstraints		= CA:true
+subjectKeyIdentifier		= hash
+authorityKeyIdentifier		= keyid,issuer
