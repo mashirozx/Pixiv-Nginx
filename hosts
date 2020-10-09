@@ -89,7 +89,6 @@
 210.140.131.220  myaccount.pixiv.net
 #Pixiv End
 
-# 顺手修一下维基百科
 # Wikipedia Start
 127.0.0.1 en.wikipedia.org
 127.0.0.1 zh.wikipedia.org #中文维基百科桌面版
@@ -102,12 +101,17 @@
 127.0.0.1 zh.wikinews.org #中文维基新闻桌面版
 # Wikipedia End
 
-# 顺手修一下Steam
-# Steam
+# Steam Start
 127.0.0.1 store.steampowered.com
 127.0.0.1 steamcommunity.com
 # Steam end
 
-# 新增对Archive of our own的支持
+# AO3 Start
 127.0.0.1 archiveofourown.org
-# Archive of our own end
+# AO3 end
+
+# Nyaa Start
+127.0.0.1	nyaa.si
+127.0.0.1	www.nyaa.si
+127.0.0.1	sukebei.nyaa.si
+# Nyaae End
