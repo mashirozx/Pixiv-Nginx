@@ -1,4 +1,5 @@
-﻿#www.google.com域名仅用于登陆验证
+﻿#UTF-8 encoded 
+#www.google.com域名仅用于登陆验证
 #如果你不需要这个功能，请把下一行删掉
 127.0.0.1       www.google.com
 
@@ -19,17 +20,73 @@
 127.0.0.1       imgaz.pixiv.net 
 127.0.0.1       sensei.pixiv.net
 127.0.0.1       fanbox.pixiv.net
-127.0.0.1       i.pximg.net
 127.0.0.1       source.pixiv.net
 127.0.0.1       i1.pixiv.net 
 127.0.0.1       i2.pixiv.net 
 127.0.0.1       i3.pixiv.net 
-127.0.0.1       i4.pixiv.net 
-210.129.120.50  app-api.pixiv.net  
-74.120.148.207  g-client-proxy.pixiv.net 
+127.0.0.1       i4.pixiv.net
+127.0.0.1       hls1.pixivsketch.net
+127.0.0.1       hls2.pixivsketch.net
+127.0.0.1       hls3.pixivsketch.net
+127.0.0.1       hls4.pixivsketch.net
+127.0.0.1       hls5.pixivsketch.net
+127.0.0.1       hls6.pixivsketch.net
+127.0.0.1       hls7.pixivsketch.net
+127.0.0.1       hls8.pixivsketch.net
+127.0.0.1       hls9.pixivsketch.net
+127.0.0.1       hls10.pixivsketch.net
+127.0.0.1       hls11.pixivsketch.net
+127.0.0.1       hls12.pixivsketch.net
+127.0.0.1       hls13.pixivsketch.net
+127.0.0.1       hls14.pixivsketch.net
+127.0.0.1       hls15.pixivsketch.net
+127.0.0.1       hls16.pixivsketch.net
+127.0.0.1       hls17.pixivsketch.net
+127.0.0.1       hls18.pixivsketch.net
+127.0.0.1       hls19.pixivsketch.net
+127.0.0.1       hls20.pixivsketch.net
+127.0.0.1       hlsa1.pixivsketch.net
+127.0.0.1       hlsa2.pixivsketch.net
+127.0.0.1       hlsa3.pixivsketch.net
+127.0.0.1       hlsa4.pixivsketch.net
+127.0.0.1       hlsa5.pixivsketch.net
+127.0.0.1       hlsa6.pixivsketch.net
+127.0.0.1       hlsa7.pixivsketch.net
+127.0.0.1       hlsa8.pixivsketch.net
+127.0.0.1       hlsa10.pixivsketch.net
+127.0.0.1       hlsa11.pixivsketch.net
+127.0.0.1       hlsa12.pixivsketch.net
+127.0.0.1       hlsa13.pixivsketch.net
+127.0.0.1       hlsa14.pixivsketch.net
+127.0.0.1       hlsa15.pixivsketch.net
+127.0.0.1       hlsa16.pixivsketch.net
+127.0.0.1       hlsa17.pixivsketch.net
+127.0.0.1       hlsa18.pixivsketch.net
+127.0.0.1       hlsa19.pixivsketch.net
+127.0.0.1       hlsc1.pixivsketch.net
+127.0.0.1       hlsc2.pixivsketch.net
+127.0.0.1       hlsc3.pixivsketch.net
+127.0.0.1       hlsc4.pixivsketch.net
+127.0.0.1       hlsc5.pixivsketch.net
+127.0.0.1       hlsc6.pixivsketch.net
+127.0.0.1       hlse1.pixivsketch.net
+127.0.0.1       hlse2.pixivsketch.net
+127.0.0.1       hlse3.pixivsketch.net
+127.0.0.1       hlse4.pixivsketch.net
+127.0.0.1       hlse5.pixivsketch.net
+127.0.0.1       hlse6.pixivsketch.net
+127.0.0.1       hlse7.pixivsketch.net
+127.0.0.1       hlse8.pixivsketch.net
+127.0.0.1       hlse9.pixivsketch.net
+127.0.0.1       hlst1.pixivsketch.net
+127.0.0.1       i.pximg.net
+127.0.0.1       app-api.pixiv.net  
+13.226.113.16    g-client-proxy.pixiv.net 
 210.140.131.159 d.pixiv.org 
-210.140.92.135  pixiv.pximg.net  
-210.140.92.134  s.pximg.net
+210.140.92.140  pixiv.pximg.net  
+210.140.92.139  s.pximg.net
+210.140.131.246  api.booth.pm
+210.140.131.220  myaccount.pixiv.net
 #Pixiv End
 
 # 顺手修一下维基百科
@@ -45,8 +102,23 @@
 127.0.0.1 zh.wikinews.org #中文维基新闻桌面版
 # Wikipedia End
 
+# Wikimedia Start
+127.0.0.1 wikimedia.org
+127.0.0.1 upload.wikimedia.org
+# Wikimedia End
+
 # 顺手修一下Steam
-# Steam
+# Steam Start
 127.0.0.1 store.steampowered.com
 127.0.0.1 steamcommunity.com
 # Steam end
+
+# AO3 Start
+127.0.0.1 archiveofourown.org
+# AO3 end
+
+# Nyaa Start
+127.0.0.1	nyaa.si
+127.0.0.1	www.nyaa.si
+127.0.0.1	sukebei.nyaa.si
+# Nyaae End

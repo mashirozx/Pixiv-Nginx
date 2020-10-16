@@ -37,6 +37,8 @@ DNS.23 = archiveofourown.org
 DNS.24 = *.archiveofourown.org
 DNS.25 = nyaa.si
 DNS.26 = *.nyaa.si
+DNS.27 = wikimedia.org
+DNS.28 = upload.wikimedia.org
 
 [ v3_req ]
 keyUsage				= digitalSignature
