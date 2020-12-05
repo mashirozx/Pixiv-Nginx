@@ -117,6 +117,10 @@
 127.0.0.1 archiveofourown.org
 # AO3 end
 
+# Exhentai Start
+127.0.0.1 exhentai.org
+# Exhentai end
+
 # Nyaa Start
 127.0.0.1	nyaa.si
 127.0.0.1	www.nyaa.si

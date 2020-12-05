@@ -39,6 +39,7 @@ DNS.25 = nyaa.si
 DNS.26 = *.nyaa.si
 DNS.27 = wikimedia.org
 DNS.28 = upload.wikimedia.org
+DNS.29 = exhentai.org
 
 [ v3_req ]
 keyUsage				= digitalSignature
