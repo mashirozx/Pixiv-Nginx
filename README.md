@@ -5,8 +5,8 @@
 
 使用说明见 <https://2heng.xin/2017/09/19/pixiv/>
 
-请在[此处](https://github.com/mashirozx/Pixiv-Nginx/releases)下载最新版`Source code
-(zip)`；或者在本页点击下图所示的按键下载。
+请在[此处](https://github.com/mashirozx/Pixiv-Nginx/releases)下载稳定版`Source code
+(zip)`；或者在本页点击下图所示的按键下载以获取最新版。
 ![](https://view.moezx.cc/images/2018/09/17/git.png)
 
 如遇本页下载速度过慢，可尝试通过[国内镜像](https://gitee.com/mashirozx/Pixiv-Nginx)下载。
