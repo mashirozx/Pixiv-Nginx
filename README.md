@@ -11,9 +11,6 @@
 
 如遇本页下载速度过慢，可尝试通过[国内镜像](https://gitee.com/mashirozx/Pixiv-Nginx)下载。
 
-### 打赏~
-[微信支付](https://view.moezx.cc/images/2018/05/28/WeChanQR.png) | [支付宝](https://view.moezx.cc/images/2018/05/28/AliPayQR.jpg) | [PayPal](https://paypal.me/mashirozx)
-
 ### LICENSE
 This is a fork of [nginx/nginx](https://github.com/nginx/nginx), so you should always follow its [2-clause BSD-like license](http://nginx.org/LICENSE).
 
