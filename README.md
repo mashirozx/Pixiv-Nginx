@@ -9,7 +9,7 @@
 (zip)`；或者在本页点击下图所示的按键下载以获取最新版。
 ![](https://view.moezx.cc/images/2018/09/17/git.png)
 
-如遇本页下载速度过慢，可尝试通过[国内镜像](https://git.moezx.cc/mashiro/Pixiv-Nginx)下载。
+如遇本页下载速度过慢，可尝试通过[国内镜像](https://git.moezx.cc/mirrors/Pixiv-Nginx)下载。
 
 ### LICENSE
 This is a fork of [nginx/nginx](https://github.com/nginx/nginx), so you should always follow its [2-clause BSD-like license](http://nginx.org/LICENSE).
