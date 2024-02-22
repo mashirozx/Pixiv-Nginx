@@ -1,4 +1,4 @@
-﻿#UTF-8 encoded 
+#UTF-8 encoded 
 #www.google.com域名仅用于登陆验证
 #如果你不需要这个功能，请把下一行删掉
 127.0.0.1       www.google.com
@@ -82,9 +82,9 @@
 127.0.0.1       i.pximg.net
 127.0.0.1       app-api.pixiv.net  
 13.226.113.16    g-client-proxy.pixiv.net 
-210.140.131.159 d.pixiv.org 
-210.140.92.140  pixiv.pximg.net  
-210.140.92.139  s.pximg.net
+210.140.131.157 d.pixiv.org 
+210.140.92.141  pixiv.pximg.net  
+210.140.92.142  s.pximg.net
 210.140.131.246  api.booth.pm
 210.140.131.220  myaccount.pixiv.net
 #Pixiv End
@@ -116,6 +116,12 @@
 # AO3 Start
 127.0.0.1 archiveofourown.org
 # AO3 end
+
+# Exhentai Start
+127.0.0.1 exhentai.org
+127.0.0.1 e-hentai.org
+127.0.0.1 forums.e-hentai.org
+# Exhentai end
 
 # Nyaa Start
 127.0.0.1	nyaa.si
