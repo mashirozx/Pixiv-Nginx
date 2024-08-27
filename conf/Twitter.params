@@ -1,0 +1,8 @@
+access_log logs/Twitter-access.log main buffer=4k;
+error_log logs/Twitter-error.log;
+proxy_headers_hash_max_size 8192;
+proxy_buffer_size 128k;
+proxy_buffers 4 256k;
+proxy_busy_buffers_size 256k;
+proxy_connect_timeout 2;
+include proxy.params;
