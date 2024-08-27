@@ -2,4 +2,8 @@
 
 2.第一次使用时直接使用「【限初次使用】一键生成根证书和子证书.bat」并将rootCA.crt安装到系统受信任的根证书列表即可，生成的Pixiv.key和Pixiv.crt可替换软件自带的CA。
 
-3.需要添加域名时打开「config_childCA.txt」加入，完后使用「【修改config_childCA.txt后使用】重新签发子证书.bat」，将新生成的Pixiv.crt替换Nginx目录原先的文件，在系统host文件添加「127.0.0.1 域名」的字段, 并修改根目录「/conf/pixiv.conf」。
+3.需要添加域名时通过修改「config_childCA.txt」加入
+
+4.修改完后使用「【修改config_childCA.txt后使用】重新签发子证书.bat」，将新生成的「Pixiv.crt」和「pixiv.net.key」替换Nginx证书目录「/conf/ca」原先的文件，在系统host文件添加「127.0.0.1 域名」的字段
+
+5.配置文件更新时仅需进行复制替换「config_childCA.txt」然后进行第4步

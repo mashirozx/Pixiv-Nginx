@@ -1,17 +1,30 @@
-[ req ]
-default_bits			= 2048
+[	req	]
+default_bits			=	2048
 
-prompt				= no
-distinguished_name		= req_distinguished_name
-v3_extensions			= v3_ext
+prompt				=	no
+distinguished_name		=	req_distinguished_name
+x509_extensions	= v3_ca
+v3_extensions			=	v3_ext
 
-[ req_distinguished_name ]
-countryName			= CN
-organizationName		= FuckGFW Foundation
-commonName			= Pixiv.net
+[	req_distinguished_name	]
+countryName		=	CN
+organizationName		=	NginxReverseProxy
+commonName			=	Pixiv.net
 
-[ v3_ext ]
-keyUsage			= keyCertSign,cRLSign
-basicConstraints		= CA:true
-subjectKeyIdentifier		= hash
-authorityKeyIdentifier		= keyid,issuer
+[	v3_ext	]
+keyUsage			=	keyCertSign,cRLSign
+basicConstraints		=	critical,CA:true
+subjectKeyIdentifier		=	hash
+authorityKeyIdentifier		=	keyid,issuer
+
+[ v3_ca ]
+basicConstraints = critical,CA:TRUE
+subjectKeyIdentifier = hash
+authorityKeyIdentifier = keyid:always,issuer:always
+
+[ v3_req ]
+keyUsage		 = 	digitalSignature
+extendedKeyUsage		 = 	"serverAuth,clientAuth"
+basicConstraints		 = 	CA:TRUE
+subjectAltName		 = 	@alternate_names
+subjectKeyIdentifier		 = 	hash
