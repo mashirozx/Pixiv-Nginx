@@ -15,6 +15,8 @@ types {
     text/vnd.wap.wml                                 wml;
     text/x-component                                 htc;
 
+    image/avif                                       avif;
+    image/bmp                                        bmp;
     image/png                                        png;
     image/svg+xml                                    svg svgz;
     image/tiff                                       tif tiff;
@@ -22,9 +24,10 @@ types {
     image/webp                                       webp;
     image/x-icon                                     ico;
     image/x-jng                                      jng;
-    image/x-ms-bmp                                   bmp;
 
-    application/font-woff                            woff;
+    font/woff                                        woff;
+    font/woff2                                       woff2;
+
     application/java-archive                         jar war ear;
     application/json                                 json;
     application/mac-binhex40                         hqx;
@@ -33,6 +36,7 @@ types {
     application/postscript                           ps eps ai;
     application/rtf                                  rtf;
     application/vnd.apple.mpegurl                    m3u8;
+    application/vnd.debian.binary-package            deb udeb;
     application/vnd.google-earth.kml+xml             kml;
     application/vnd.google-earth.kmz                 kmz;
     application/vnd.ms-excel                         xls;
@@ -48,7 +52,9 @@ types {
                                                      xlsx;
     application/vnd.openxmlformats-officedocument.wordprocessingml.document
                                                      docx;
+    application/vnd.rar                              rar;
     application/vnd.wap.wmlc                         wmlc;
+    application/wasm                                 wasm;
     application/x-7z-compressed                      7z;
     application/x-cocoa                              cco;
     application/x-java-archive-diff                  jardiff;
@@ -56,7 +62,6 @@ types {
     application/x-makeself                           run;
     application/x-perl                               pl pm;
     application/x-pilot                              prc pdb;
-    application/x-rar-compressed                     rar;
     application/x-redhat-package-manager             rpm;
     application/x-sea                                sea;
     application/x-shockwave-flash                    swf;
@@ -69,7 +74,6 @@ types {
     application/zip                                  zip;
 
     application/octet-stream                         bin exe dll;
-    application/octet-stream                         deb;
     application/octet-stream                         dmg;
     application/octet-stream                         iso img;
     application/octet-stream                         msi msp msm;
