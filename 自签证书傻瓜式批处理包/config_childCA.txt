@@ -146,6 +146,15 @@ DNS.0132	 = 	wallhaven.cc
 DNS.0133	 = 	*.wallhaven.cc	
 DNS.0134	 = 	x.com	
 DNS.0135	 = 	*.x.com	
+DNS.0136	 = 	facebook.com	
+DNS.0137	 = 	*.facebook.com
+DNS.0138	 = 	facebook.net	
+DNS.0139	 = 	*.facebook.net
+DNS.0140	 = 	fbsbx.com
+DNS.0141	 = 	*.fbsbx.com
+DNS.0142	 = 	fbcdn.net
+DNS.0143	 = 	*.fbcdn.net
+DNS.0144	 = 	*.xx.fbcdn.net
 
 			
 			
