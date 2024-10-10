@@ -1,1 +1,0 @@
-用本文件夹内的 nginx.conf 替换根目录 conf 文件夹中的 nginx.conf 文件
