@@ -15,6 +15,8 @@
 |---|---|
 |<img src="https://view.moezx.cc/images/2023/03/15/ed9589b16436258a529172fbaa052b60.png" width="360" alt="镜像1下载方法" /> | <img src="https://view.moezx.cc/images/2021/10/23/c5a92987653ea0c6921b1a461401cfec.png" width="360" alt="镜像2下载方法" />|
 
+> Pixiv Nginx 启动器由 [Sheas Cealer](https://github.com/SpaceTimee/Sheas-Cealer) 子项目 [Sheas Nginx](https://github.com/SpaceTimee/Sheas-Nginx) 提供，非常感谢我自己 —— Space Time
+
 ### LICENSE
 
 <a href="http://www.wtfpl.net/"><img src="https://ngx.moezx.cc/share/svg/brands/WTFPL_badge.svg" width="80" alt="WTFPL" /></a>

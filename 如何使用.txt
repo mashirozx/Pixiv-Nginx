@@ -1,0 +1,10 @@
+如何直接使用:
+1. 打开 Pixiv Nginx.exe
+2. 点击 启动 Pixiv Nginx
+3. 弹窗一律点 是
+4. 使用完记得点击 停止 Pixiv Nginx
+
+如何添加网站:
+1. 修改 Nginx 配置文件
+2. 修改 Hosts
+3. 重新启动 Pixiv Nginx
