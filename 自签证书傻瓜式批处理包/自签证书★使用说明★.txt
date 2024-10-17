@@ -1,13 +1,15 @@
-1、
-配置文件一起的还有一个openssl压缩包，可供未安装openssl的使用，把压缩包里面的openssl文件夹解压到自签证书批处理包的文件夹里面即可
+1.配置文件一起的还有一个openssl压缩包，可供未安装openssl的使用，群文件下载 OpenSSL，将OpenSSL文件夹解压到这个文件夹里面即可
 
-2.第一次使用时直接使用「【限初次使用】一键生成根证书和子证书.bat」并将　rootCA.crt　安装到　系统　受信任的根证书颁发机构　目录下，生成的Pixiv.net.key和Pixiv.net.crt可替换软件自带的CA。
+2.第一次使用时直接使用「【限初次使用】一键生成根证书和子证书.bat」并将rootCA.crt安装到系统受信任的根证书列表即可，生成的Pixiv.net.key和Pixiv.net.crt可替换软件自带的CA。
 
 导入根证书具体操作：双击打开rootCA.crt，点击“安装证书”，进入“证书导入向导”，存储位置选择“本地计算机”，单击“下一步”继续，选择“将所有的证书都放入下列存储”，然后点击“浏览”，选择“受信任的根证书颁发机构”，然后点击“确定”，然后点击“下一步”，最后点击“完成”
 
+3.需要添加域名时通过修改「config_childCA.txt」加入
 
-3.需要添加域名时打开「config_childCA.txt」加入，完后使用「【修改config_childCA.txt后使用】重新签发子证书.bat」，将新生成的Pixiv.net.crt和Pixiv.net.key替换Nginx目录原先的文件，在系统host文件添加「127.0.0.1 域名」的字段, 并修改根目录「/conf/pixiv.conf」。
+4.修改完后使用「【修改config_childCA.txt后使用】重新签发子证书.bat」，将新生成的「Pixiv.net.crt」和「pixiv.net.key」替换Nginx证书目录「/conf/ca」原先的文件，在系统host文件添加「127.0.0.1 域名」的字段
+
+5.配置文件更新时仅需进行修改「config_childCA.txt」然后进行第4步
 
 
-生成的子证书存放目录：nginx安装目录/conf/ca
+生成的子证书需要安装的目录：nginx安装目录/conf/ca
 生成证书时如果需要操作请输入英文字母y然后回车

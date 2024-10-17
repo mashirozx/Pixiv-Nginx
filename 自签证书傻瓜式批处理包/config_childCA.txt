@@ -155,6 +155,8 @@ DNS.0141	 = 	*.fbsbx.com
 DNS.0142	 = 	fbcdn.net
 DNS.0143	 = 	*.fbcdn.net
 DNS.0144	 = 	*.xx.fbcdn.net
+DNS.0145	 = 	imgur.com
+DNS.0146	 = 	*.imgur.com
 
 			
 			
