@@ -1,130 +1,608 @@
-#UTF-8 encoded 
-#www.google.com域名仅用于登陆验证
-#如果你不需要这个功能，请把下一行删掉
-127.0.0.1       www.google.com
+# GitHub Host Start	
+	
+185.199.108.154	github.githubassets.com	
+140.82.114.21	central.github.com	
+185.199.108.153	assets-cdn.github.com	
+185.199.109.133	github.map.fastly.net	
+199.232.69.194	github.global.ssl.fastly.net	
+140.82.112.4	gist.github.com	
+185.199.108.153	github.io	
+#13.114.40.48	GitHub.com	
+#52.192.72.89	github.com
+20.205.243.166 github.com
+20.27.177.113 github.com
+20.200.245.247 github.com	
+127.0.0.1	GitHub.com
+#52.69.186.44	github.com	
+20.205.243.168	api.github.com	
+#140.82.113.5	api.github.com	
+#185.199.110.133	raw.githubusercontent.com	
+#185.199.109.133	user-images.githubusercontent.com	
+#185.199.109.133	favicons.githubusercontent.com	
+#185.199.109.133	avatars5.githubusercontent.com	
+#185.199.109.133	avatars4.githubusercontent.com	
+#185.199.109.133	avatars3.githubusercontent.com	
+#185.199.109.133	avatars2.githubusercontent.com	
+#185.199.109.133	avatars1.githubusercontent.com	
+#185.199.109.133	avatars0.githubusercontent.com	
+#185.199.109.133	avatars.githubusercontent.com	
+#185.199.109.133	objects.githubusercontent.com	
+127.0.0.1	raw.githubusercontent.com	
+127.0.0.1	desktop.githubusercontent.com	
+127.0.0.1	camo.githubusercontent.com	
+127.0.0.1	user-images.githubusercontent.com	
+127.0.0.1	favicons.githubusercontent.com	
+127.0.0.1	avatars5.githubusercontent.com	
+127.0.0.1	avatars4.githubusercontent.com	
+127.0.0.1	avatars3.githubusercontent.com	
+127.0.0.1	avatars2.githubusercontent.com	
+127.0.0.1	avatars1.githubusercontent.com	
+127.0.0.1	avatars0.githubusercontent.com	
+127.0.0.1	avatars.githubusercontent.com	
+127.0.0.1	objects.githubusercontent.com	
+127.0.0.1	media.githubusercontent.com	
+13.124.75.135	codeload.github.com	
+#140.82.114.9	codeload.github.com	
+52.216.163.11	github-cloud.s3.amazonaws.com	
+52.216.163.11	github-com.s3.amazonaws.com	
+52.216.163.11	github-production-release-asset-2e65be.s3.amazonaws.com	
+52.216.163.11	github-production-user-asset-6210df.s3.amazonaws.com	
+52.216.163.11	github-production-repository-file-5c1aeb.s3.amazonaws.com	
+185.199.110.153	githubstatus.com	
+64.71.144.202	github.community	
+	
+# dns             : https://github.com/ineo6/hosts	
+#      и  £ 	
+# GitHub Host End	
+	
+#Pixiv Start	
+127.0.0.1	pixiv.net	
+127.0.0.1	www.pixiv.net	
+127.0.0.1	ssl.pixiv.net	
+127.0.0.1	accounts.pixiv.net	
+127.0.0.1	touch.pixiv.net	
+127.0.0.1	oauth.secure.pixiv.net	
+127.0.0.1	dic.pixiv.net	
+127.0.0.1	en-dic.pixiv.net	
+127.0.0.1	sketch.pixiv.net	
+127.0.0.1	payment.pixiv.net	
+127.0.0.1	factory.pixiv.net	
+127.0.0.1	comic.pixiv.net	
+127.0.0.1	novel.pixiv.net	
+127.0.0.1	imgaz.pixiv.net	
+127.0.0.1	imp.pixiv.net	
+127.0.0.1	sensei.pixiv.net	
+127.0.0.1	fanbox.pixiv.net	
+127.0.0.1	source.pixiv.net	
+127.0.0.1	i1.pixiv.net	
+127.0.0.1	i2.pixiv.net	
+127.0.0.1	i3.pixiv.net	
+127.0.0.1	i4.pixiv.net	
+127.0.0.1	hls1.pixivsketch.net	
+127.0.0.1	hls2.pixivsketch.net	
+127.0.0.1	hls3.pixivsketch.net	
+127.0.0.1	hls4.pixivsketch.net	
+127.0.0.1	hls5.pixivsketch.net	
+127.0.0.1	hls6.pixivsketch.net	
+127.0.0.1	hls7.pixivsketch.net	
+127.0.0.1	hls8.pixivsketch.net	
+127.0.0.1	hls9.pixivsketch.net	
+127.0.0.1	hls10.pixivsketch.net	
+127.0.0.1	hls11.pixivsketch.net	
+127.0.0.1	hls12.pixivsketch.net	
+127.0.0.1	hls13.pixivsketch.net	
+127.0.0.1	hls14.pixivsketch.net	
+127.0.0.1	hls15.pixivsketch.net	
+127.0.0.1	hls16.pixivsketch.net	
+127.0.0.1	hls17.pixivsketch.net	
+127.0.0.1	hls18.pixivsketch.net	
+127.0.0.1	hls19.pixivsketch.net	
+127.0.0.1	hls20.pixivsketch.net	
+127.0.0.1	hlsa1.pixivsketch.net	
+127.0.0.1	hlsa2.pixivsketch.net	
+127.0.0.1	hlsa3.pixivsketch.net	
+127.0.0.1	hlsa4.pixivsketch.net	
+127.0.0.1	hlsa5.pixivsketch.net	
+127.0.0.1	hlsa6.pixivsketch.net	
+127.0.0.1	hlsa7.pixivsketch.net	
+127.0.0.1	hlsa8.pixivsketch.net	
+127.0.0.1	hlsa10.pixivsketch.net	
+127.0.0.1	hlsa11.pixivsketch.net	
+127.0.0.1	hlsa12.pixivsketch.net	
+127.0.0.1	hlsa13.pixivsketch.net	
+127.0.0.1	hlsa14.pixivsketch.net	
+127.0.0.1	hlsa15.pixivsketch.net	
+127.0.0.1	hlsa16.pixivsketch.net	
+127.0.0.1	hlsa17.pixivsketch.net	
+127.0.0.1	hlsa18.pixivsketch.net	
+127.0.0.1	hlsa19.pixivsketch.net	
+127.0.0.1	hlsc1.pixivsketch.net	
+127.0.0.1	hlsc2.pixivsketch.net	
+127.0.0.1	hlsc3.pixivsketch.net	
+127.0.0.1	hlsc4.pixivsketch.net	
+127.0.0.1	hlsc5.pixivsketch.net	
+127.0.0.1	hlsc6.pixivsketch.net	
+127.0.0.1	hlse1.pixivsketch.net	
+127.0.0.1	hlse2.pixivsketch.net	
+127.0.0.1	hlse3.pixivsketch.net	
+127.0.0.1	hlse4.pixivsketch.net	
+127.0.0.1	hlse5.pixivsketch.net	
+127.0.0.1	hlse6.pixivsketch.net	
+127.0.0.1	hlse7.pixivsketch.net	
+127.0.0.1	hlse8.pixivsketch.net	
+127.0.0.1	hlse9.pixivsketch.net	
+127.0.0.1	hlst1.pixivsketch.net	
+127.0.0.1	i.pximg.net	
+127.0.0.1	downloads.fanbox.cc	
+127.0.0.1	api.fanbox.cc
+127.0.0.1	www.fanbox.cc
+127.0.0.1	app-api.pixiv.net	
+13.226.113.16	g-client-proxy.pixiv.net	
+210.140.131.159	d.pixiv.org	
+210.140.92.140	pixiv.pximg.net	
+210.140.131.246	api.booth.pm	
+210.140.131.220	myaccount.pixiv.net	
+#Pixiv End	
+	
+# ˳    һ  ά     ?	
+# Wikipedia Start	
+127.0.0.1	en.wikipedia.org	
+127.0.0.1	zh.wikipedia.org	#    ά   ٿ      ?
+127.0.0.1	en.m.wikipedia.org	
+127.0.0.1	zh.m.wikipedia.org	
+127.0.0.1	zh-yue.wikipedia.org	#    ά   ٿ      ?
+127.0.0.1	wuu.wikipedia.org	#    ά   ٿ      ?
+127.0.0.1	ug.wikipedia.org	#ά     ά   ٿ      ?
+127.0.0.1	ja.wikipedia.org	#    ά   ٿ      ?
+127.0.0.1	zh.wikinews.org	#    ά           ?
+# Wikipedia End	
+	
+# Wikimedia Start	
+127.0.0.1	wikimedia.org	
+127.0.0.1	upload.wikimedia.org	
+# Wikimedia End	
+	
+# ˳    һ  Steam	
+# Steam Start	
+23.195.152.91	store.steampowered.com	
+23.199.145.221	login.steampowered.com	
+23.199.145.221	help.steampowered.com	
+23.199.145.221	api.steampowered.com	
+127.0.0.1	steamcommunity.com	
+#127.0.0.1	steam-chat.com	
+104.69.45.52	steam-chat.com		
+::1		cdn.steamstatic.com
+127.0.0.1	cdn.steamstatic.com
+::1		cdn.akamai.steamstatic.com
+127.0.0.1	cdn.akamai.steamstatic.com
+::1		cdn.cloudflare.steamstatic.com
+127.0.0.1	cdn.cloudflare.steamstatic.com
+::1		clan.steamstatic.com;
+127.0.0.1	clan.steamstatic.com;
+::1		clan.akamai.steamstatic.com;
+127.0.0.1	clan.akamai.steamstatic.com;
+::1		clan.cloudflare.steamstatic.com;
+127.0.0.1	clan.cloudflare.steamstatic.com;
+::1		store.akamai.steamstatic.com
+127.0.0.1	store.akamai.steamstatic.com
+::1		store.cloudflare.steamstatic.com
+127.0.0.1	store.cloudflare.steamstatic.com
+::1		avatars.akamai.steamstatic.com
+127.0.0.1	avatars.akamai.steamstatic.com
+::1		avatars.cloudflare.steamstatic.com
+127.0.0.1	avatars.cloudflare.steamstatic.com
+::1		shared.steamstatic.com
+127.0.0.1	shared.steamstatic.com
+::1		shared.akamai.steamstatic.com
+127.0.0.1	shared.akamai.steamstatic.com
+::1		shared.cloudflare.steamstatic.com
+127.0.0.1	shared.cloudflare.steamstatic.com
+::1		video.steamstatic.com
+127.0.0.1	video.steamstatic.com
+::1		video.akamai.steamstatic.com
+127.0.0.1	video.akamai.steamstatic.com
+::1		video.cloudflare.steamstatic.com
+127.0.0.1	video.cloudflare.steamstatic.com
+::1		broadcast.akamai.steamstatic.com
+127.0.0.1	broadcast.akamai.steamstatic.com
+127.0.0.1	steamuserimages-a.akamaihd.net
+127.0.0.1	steamcdn-a.akamaihd.net	
+23.48.201.42 	clientconfig.akamai.steamstatic.com	
+23.48.201.34	clientconfig.akamai.steamstatic.com	
 
-#Pixiv Start
-127.0.0.1       pixiv.net 
-127.0.0.1       www.pixiv.net 
-127.0.0.1       ssl.pixiv.net
-127.0.0.1       accounts.pixiv.net 
-127.0.0.1       touch.pixiv.net
-127.0.0.1       oauth.secure.pixiv.net
-127.0.0.1       dic.pixiv.net
-127.0.0.1       en-dic.pixiv.net 
-127.0.0.1       sketch.pixiv.net
-127.0.0.1       payment.pixiv.net
-127.0.0.1       factory.pixiv.net 
-127.0.0.1       comic.pixiv.net  
-127.0.0.1       novel.pixiv.net 
-127.0.0.1       imgaz.pixiv.net 
-127.0.0.1       sensei.pixiv.net
-127.0.0.1       fanbox.pixiv.net
-127.0.0.1       source.pixiv.net
-127.0.0.1       i1.pixiv.net 
-127.0.0.1       i2.pixiv.net 
-127.0.0.1       i3.pixiv.net 
-127.0.0.1       i4.pixiv.net
-127.0.0.1       hls1.pixivsketch.net
-127.0.0.1       hls2.pixivsketch.net
-127.0.0.1       hls3.pixivsketch.net
-127.0.0.1       hls4.pixivsketch.net
-127.0.0.1       hls5.pixivsketch.net
-127.0.0.1       hls6.pixivsketch.net
-127.0.0.1       hls7.pixivsketch.net
-127.0.0.1       hls8.pixivsketch.net
-127.0.0.1       hls9.pixivsketch.net
-127.0.0.1       hls10.pixivsketch.net
-127.0.0.1       hls11.pixivsketch.net
-127.0.0.1       hls12.pixivsketch.net
-127.0.0.1       hls13.pixivsketch.net
-127.0.0.1       hls14.pixivsketch.net
-127.0.0.1       hls15.pixivsketch.net
-127.0.0.1       hls16.pixivsketch.net
-127.0.0.1       hls17.pixivsketch.net
-127.0.0.1       hls18.pixivsketch.net
-127.0.0.1       hls19.pixivsketch.net
-127.0.0.1       hls20.pixivsketch.net
-127.0.0.1       hlsa1.pixivsketch.net
-127.0.0.1       hlsa2.pixivsketch.net
-127.0.0.1       hlsa3.pixivsketch.net
-127.0.0.1       hlsa4.pixivsketch.net
-127.0.0.1       hlsa5.pixivsketch.net
-127.0.0.1       hlsa6.pixivsketch.net
-127.0.0.1       hlsa7.pixivsketch.net
-127.0.0.1       hlsa8.pixivsketch.net
-127.0.0.1       hlsa10.pixivsketch.net
-127.0.0.1       hlsa11.pixivsketch.net
-127.0.0.1       hlsa12.pixivsketch.net
-127.0.0.1       hlsa13.pixivsketch.net
-127.0.0.1       hlsa14.pixivsketch.net
-127.0.0.1       hlsa15.pixivsketch.net
-127.0.0.1       hlsa16.pixivsketch.net
-127.0.0.1       hlsa17.pixivsketch.net
-127.0.0.1       hlsa18.pixivsketch.net
-127.0.0.1       hlsa19.pixivsketch.net
-127.0.0.1       hlsc1.pixivsketch.net
-127.0.0.1       hlsc2.pixivsketch.net
-127.0.0.1       hlsc3.pixivsketch.net
-127.0.0.1       hlsc4.pixivsketch.net
-127.0.0.1       hlsc5.pixivsketch.net
-127.0.0.1       hlsc6.pixivsketch.net
-127.0.0.1       hlse1.pixivsketch.net
-127.0.0.1       hlse2.pixivsketch.net
-127.0.0.1       hlse3.pixivsketch.net
-127.0.0.1       hlse4.pixivsketch.net
-127.0.0.1       hlse5.pixivsketch.net
-127.0.0.1       hlse6.pixivsketch.net
-127.0.0.1       hlse7.pixivsketch.net
-127.0.0.1       hlse8.pixivsketch.net
-127.0.0.1       hlse9.pixivsketch.net
-127.0.0.1       hlst1.pixivsketch.net
-127.0.0.1       i.pximg.net
-127.0.0.1       app-api.pixiv.net  
-13.226.113.16    g-client-proxy.pixiv.net 
-210.140.131.157 d.pixiv.org 
-210.140.92.141  pixiv.pximg.net  
-210.140.92.142  s.pximg.net
-210.140.131.246  api.booth.pm
-210.140.131.220  myaccount.pixiv.net
-#Pixiv End
+127.0.0.1	community.steamstatic.com	
+::1	community.steamstatic.com	
+127.0.0.1	community.akamai.steamstatic.com	
+::1	community.akamai.steamstatic.com	
+127.0.0.1	community.cloudflare.steamstatic.com	
+::1	community.cloudflare.steamstatic.com	
+# Steam End	
+	
+# AO3 Start	
+#127.0.0.1	archiveofourown.org	
+# AO3 End	
+	
+# Exhentai Start	
+127.0.0.1	exhentai.org
+127.0.0.1	s.exhentai.org	
+127.0.0.1	e-hentai.org	
+127.0.0.1	api.e-hentai.org	
+127.0.0.1	r.e-hentai.org	
+127.0.0.1	g.e-hentai.org	
+127.0.0.1	lofi.e-hentai.org	
+127.0.0.1	upld.e-hentai.org	
+127.0.0.1	forums.e-hentai.org	
+127.0.0.1	ehgt.org	
+# Exhentai End	
+	
+# Nyaa Start	
+#127.0.0.1	nyaa.si	
+#127.0.0.1	www.nyaa.si	
+#127.0.0.1	sukebei.nyaa.si	
+# Nyaa End	
+	
+# dlsite Start	
+13.224.163.55 	www.dlsite.com
+13.224.163.36 	www.dlsite.com
+13.224.163.14 	www.dlsite.com
+13.224.163.122 	www.dlsite.com
+99.84.55.9	www.dlsite.com
+99.84.55.64	www.dlsite.com
+99.84.55.86	www.dlsite.com
+99.84.55.128	www.dlsite.com
+::2606:4700::6812:2ad	www.dlsite.com
+::2606:4700::6812:3ad	www.dlsite.com
+13.32.50.10	ssl.dlsite.com
+13.32.50.49	ssl.dlsite.com
+13.32.50.64	ssl.dlsite.com
+13.32.50.77	ssl.dlsite.com
+99.84.55.9	ssl.dlsite.com
+99.84.55.64	ssl.dlsite.com
+99.84.55.86	ssl.dlsite.com
+99.84.55.128	ssl.dlsite.com
+13.35.185.2	download.dlsite.com
+13.35.185.22	download.dlsite.com
+13.35.185.33	download.dlsite.com
+13.35.185.95	download.dlsite.com
+18.65.216.21	download.dlsite.com
+18.65.216.76	download.dlsite.com
+18.65.216.81	download.dlsite.com
+18.65.216.103	download.dlsite.com
+18.164.174.12	download.dlsite.com
+18.164.174.22	download.dlsite.com
+18.164.174.75	download.dlsite.com
+18.164.174.89	download.dlsite.com
+13.224.167.12 	media.dlsite.com
+13.224.167.19 	media.dlsite.com
+13.224.167.37 	media.dlsite.com
+13.224.167.113	media.dlsite.com
+13.224.163.22 	media.dlsite.com
+13.224.163.34 	media.dlsite.com
+13.224.163.50 	media.dlsite.com
+13.224.163.73 	media.dlsite.com
+52.84.251.15	media.dlsite.com
+52.84.251.58	media.dlsite.com
+52.84.251.69	media.dlsite.com
+52.84.251.116	media.dlsite.com
+99.84.55.5	media.dlsite.com
+99.84.55.11	media.dlsite.com
+99.84.55.44	media.dlsite.com
+99.84.55.66	media.dlsite.com
+54.248.185.220	play.dlsite.com
+54.249.233.189	play.dlsite.com
+3.114.2.143	ch.dlsite.com
+54.65.242.130	ch.dlsite.com
+54.192.18.16	img.dlsite.jp
+54.192.18.19	img.dlsite.jp
+54.192.18.25	img.dlsite.jp
+54.192.18.79	img.dlsite.jp
+3.164.143.11	img.dlsite.jp
+3.164.143.22	img.dlsite.jp
+3.164.143.45	img.dlsite.jp
+3.164.143.55	img.dlsite.jp
+#2606:4700:100::6812:199d	img.dlsite.jp
+#2606:4700:100::6812:189d	img.dlsite.jp
+54.192.18.22	media.ci-en.jp
+54.192.18.101	media.ci-en.jp
+54.192.18.106	media.ci-en.jp
+54.192.18.116	media.ci-en.jp
+#35.76.238.66	ci-en.net
+#176.34.45.157	ci-en.net
+18.182.137.104	ci-en.dlsite.com
+13.115.197.107	ci-en.dlsite.com
+# dlsite End	
+	
+# EA Start	
+127.0.0.1	origin-a.akamaihd.net	
+127.0.0.1	api1.origin.com	
+127.0.0.1	pc.ea.com	
+# EA End		
 
-# 顺手修一下维基百科
-# Wikipedia Start
-127.0.0.1 en.wikipedia.org
-127.0.0.1 zh.wikipedia.org #中文维基百科桌面版
-127.0.0.1 en.m.wikipedia.org
-127.0.0.1 zh.m.wikipedia.org
-127.0.0.1 zh-yue.wikipedia.org #粤文维基百科桌面版
-127.0.0.1 wuu.wikipedia.org #吴语维基百科桌面版
-127.0.0.1 ug.wikipedia.org #维吾尔文维基百科桌面版
-127.0.0.1 ja.wikipedia.org #日文维基百科桌面版
-127.0.0.1 zh.wikinews.org #中文维基新闻桌面版
-# Wikipedia End
+#    Twitter Start	
+127.0.0.1	twitter.com	
+127.0.0.1	api.twitter.com	
+127.0.0.1	ton.twitter.com	
+127.0.0.1	support.twitter.com	
+127.0.0.1	upload.twitter.com	
+127.0.0.1	pic.twitter.com	
+127.0.0.1	x.com	
+127.0.0.1	jf.x.com	
+127.0.0.1	api.x.com	
+127.0.0.1	ton.x.com	
+127.0.0.1	support.x.com	
+127.0.0.1	upload.x.com	
+127.0.0.1	pic.x.com
+127.0.0.1	abs.twimg.com	
+127.0.0.1	pbs.twimg.com	
+127.0.0.1	t.lv.twimg.com	
+127.0.0.1	video.twimg.com	
+127.0.0.1	abs-0.twimg.com	
+127.0.0.1	t.co	
+#    Twitter End	
+	
+#    Discord Start	
+127.0.0.1	media.discordapp.net	
+127.0.0.1	images-ext-2.discordapp.net	
+127.0.0.1	images-ext-1.discordapp.net	
+127.0.0.1	dl.discordapp.net	
+127.0.0.1	discordapp.com	
+127.0.0.1	url9177.discordapp.com	
+127.0.0.1	canary-api.discordapp.com	
+127.0.0.1	cdn-ptb.discordapp.com	
+127.0.0.1	ptb.discordapp.com	
+127.0.0.1	status.discordapp.com	
+127.0.0.1	cdn-canary.discordapp.com	
+127.0.0.1	cdn.discordapp.com	
+127.0.0.1	streamkit.discordapp.com	
+127.0.0.1	i18n.discordapp.com	
+127.0.0.1	url9624.discordapp.com	
+127.0.0.1	url7195.discordapp.com	
+127.0.0.1	merch.discordapp.com	
+127.0.0.1	printer.discordapp.com	
+127.0.0.1	canary.discordapp.com	
+127.0.0.1	apps.discordapp.com	
+127.0.0.1	pax.discordapp.com	
+127.0.0.1	discord.com	
+127.0.0.1	status.discord.com	
+127.0.0.1	streamkit.discord.com	
+127.0.0.1	feedback.discord.com	
+127.0.0.1	click.discord.com	
+127.0.0.1	pax.discord.com	
+127.0.0.1	printer.discord.com	
+127.0.0.1	ptb.discord.com	
+127.0.0.1	canary.discord.com	
+127.0.0.1	bugs.discord.com	
+127.0.0.1	i18n.discord.com	
+127.0.0.1	support.discord.com	
+127.0.0.1	safety.discord.com	
+127.0.0.1	support-dev.discord.com	
+127.0.0.1	discord.gg	
+127.0.0.1	gateway.discord.gg	
+127.0.0.1	gateway-us-east1-b.discord.gg	
+#    Discord End	
+	
+#    Twitch Start	
+127.0.0.1	twitch.tv	
+127.0.0.1	www.twitch.tv	
+127.0.0.1	m.twitch.tv	
+127.0.0.1	app.twitch.tv	
+127.0.0.1	clips.twitch.tv	
+127.0.0.1	gql.twitch.tv	
+127.0.0.1	dashboard.twitch.tv	
+127.0.0.1	player.twitch.tv	
+127.0.0.1	api.twitch.tv	
+127.0.0.1	irc-ws.chat.twitch.tv	
+127.0.0.1	irc-ws-r.chat.twitch.tv	
+127.0.0.1	vod-storyboards.twitch.tv	
+127.0.0.1	vod-metro.twitch.tv	
+127.0.0.1	music.twitch.tv	
+127.0.0.1	player.m7g.twitch.tv	
+127.0.0.1	badges.twitch.tv	
+127.0.0.1	blog.twitch.tv	
+127.0.0.1	inspector.twitch.tv	
+127.0.0.1	stream.twitch.tv	
+127.0.0.1	dev.twitch.tv	
+127.0.0.1	spade.twitch.tv	
+127.0.0.1	trowel.twitch.tv	
+127.0.0.1	vod-secure.twitch.tv	
+127.0.0.1	extension-files.twitch.tv	
+127.0.0.1	help.twitch.tv	
+127.0.0.1	cvp.twitch.tv	
+127.0.0.1	brand.twitch.tv	
+127.0.0.1	assets.help.twitch.tv	
+127.0.0.1	passport.twitch.tv	
+127.0.0.1	id.twitch.tv	
+127.0.0.1	link.twitch.tv	
+127.0.0.1	id-cdn.twitch.tv	
+127.0.0.1	discuss.dev.twitch.tv	
+127.0.0.1	ingest.twitch.tv	
+127.0.0.1	usher.ttvnw.net	
+127.0.0.1	clips-media-assets2.twitch.tv	
+127.0.0.1	us-west-2.uploads-regional.twitch.tv	
+127.0.0.1	safety.twitch.tv	
+127.0.0.1	pubsub-edge.twitch.tv	
+127.0.0.1	panels.twitch.tv	
+127.0.0.1	gql.twitch.tv	
+#    Twitch End	
 
-# Wikimedia Start
-127.0.0.1 wikimedia.org
-127.0.0.1 upload.wikimedia.org
-# Wikimedia End
+#    nhentai Start	
+104.21.66.123	nhentai.net	
+185.107.44.3	nhentai.net	
+127.0.0.1	t2.nhentai.net	
+127.0.0.1	t3.nhentai.net	
+127.0.0.1	t5.nhentai.net	
+127.0.0.1	t7.nhentai.net	
+127.0.0.1	static.nhentai.net	
+#    nhentai End	
+	
+#    Instagram Start	
+127.0.0.1	ig.me	
+127.0.0.1	www.ig.me	
+127.0.0.1	instagr.am	
+127.0.0.1	i.instagr.am	
+127.0.0.1	www.instagr.am	
+127.0.0.1	Instagram.com	
+127.0.0.1	b.i.Instagram.com	
+127.0.0.1	z-p42.i.instagram.com	
+127.0.0.1	upload-ec2.instagram.com	
+127.0.0.1	help.instagram.com	
+127.0.0.1	m.Instagram.com	
+127.0.0.1	www.Instagram.com	
+127.0.0.1	privacycenter.instagram.com	
+127.0.0.1	z-p42.graph.instagram.com	
+127.0.0.1	z-p42.upload.instagram.com	
+127.0.0.1	z-p42.dyi.www.instagram.com	
+127.0.0.1	z-p42.maps.instagram.com	
+127.0.0.1	z-p42.m.instagram.com	
+127.0.0.1	z-p42-reg-e2ee.instagram.com	
+127.0.0.1	z-p42.lookasideInstagram.com	
+127.0.0.1	z-p42-i.Instagram.com	
+127.0.0.1	z-p42-instagram.c10r.instagram.com	
+127.0.0.1	geo-p42.instagram.com	
+127.0.0.1	b-i.instagram.com	
+	
+127.0.0.1	api.Instagram.com	
+127.0.0.1	graph.instagram.com	
+127.0.0.1	i.Instagram.com	
+127.0.0.1	badges.Instagram.com	
+127.0.0.1	hyperlapse.Instagram.com	
+127.0.0.1	preprod.Instagram.com	
+127.0.0.1	community.Instagram.com	
+127.0.0.1	parents.Instagram.com	
+127.0.0.1	lookaside.Instagram.com	
+127.0.0.1	auth.Instagram.com	
+127.0.0.1	black.Instagram.com	
+127.0.0.1	creatorsupport.Instagram.com	
+127.0.0.1	wallets.Instagram.com	
+127.0.0.1	accountscenter.Instagram.com	
+127.0.0.1	approval.Instagram.com	
+127.0.0.1	graphql.Instagram.com	
+127.0.0.1	survey.Instagram.com	
+127.0.0.1	call.Instagram.com	
+127.0.0.1	familycenter.Instagram.com	
+127.0.0.1	Instagram.c10r.Instagram.com	
+127.0.0.1	streaming-graph.Instagram.com	
+127.0.0.1	geo.Instagram.com	
+127.0.0.1	white.Instagram.com	
+127.0.0.1	applink.Instagram.com	
+127.0.0.1	creators.Instagram.com	
+127.0.0.1	checkout.instagram.com	
+127.0.0.1	dyi.www.instagram.com	
+	
+127.0.0.1	buy.ig.me	
+127.0.0.1	instagram.c10r.facebook.com	
+127.0.0.1	instagram-p3-shv-02-iad3.fbcdn.net	
+127.0.0.1	l.instagram.com	
+127.0.0.1	logger.instagram.com	
+127.0.0.1	maps.instagram.com	
+127.0.0.1	platform.instagram.com	
+127.0.0.1	platform-iad3-2.cdninstagram.com	
+127.0.0.1	reg-e2ee.instagram.com	
+127.0.0.1	scontent-a-iad3-2.cdninstagram.com	
+127.0.0.1	scontent-b.cdninstagram.com	
+127.0.0.1	scontent-b-iad3-2.cdninstagram.com	
+127.0.0.1	scontent-iad3-2.cdninstagram.com	
+127.0.0.1	static-iad3-2.cdninstagram.com	
+127.0.0.1	upload.instagram.com	
+127.0.0.1	video-iad3-2.cdninstagram.com	
+127.0.0.1	web-chat-e2ee.instagram.com	
+127.0.0.1	www.prod.instagram.com	
+127.0.0.1	xweb.instagram.com	
+127.0.0.1	z-p3.www.instagram.com	
+127.0.0.1	edge-chat.Instagram.com	
+	
+127.0.0.1	static.cdninstagram.com	
+127.0.0.1	video.cdninstagram.com	
+127.0.0.1	creative.cdninstagram.com	
+127.0.0.1	dragon.cdninstagram.com	
+127.0.0.1	external.cdninstagram.com	
+127.0.0.1	platform.cdninstagram.com	
+127.0.0.1	scontent.cdninstagram.com	
+127.0.0.1	creative-nrt.cdninstagram.com	
+127.0.0.1	creative-nrt1-1.cdninstagram.com	
+127.0.0.1	dragon-nrt.cdninstagram.com	
+127.0.0.1	dragon-nrt1-1.cdninstagram.com	
+127.0.0.1	external-nrt.cdninstagram.com	
+127.0.0.1	external-nrt1-1.cdninstagram.com	
+127.0.0.1	platform-nrt.cdninstagram.com	
+127.0.0.1	platform-nrt1-1.cdninstagram.com	
+127.0.0.1	scontent-a-nrt.cdninstagram.com	
+127.0.0.1	scontent-a-nrt1-1.cdninstagram.com	
+127.0.0.1	scontent-b-nrt.cdninstagram.com	
+127.0.0.1	scontent-b-nrt1-1.cdninstagram.com	
+127.0.0.1	scontent-nrt.cdninstagram.com	
+127.0.0.1	scontent-nrt1-1.cdninstagram.com	
+127.0.0.1	static-nrt.cdninstagram.com	
+127.0.0.1	static-nrt1-1.cdninstagram.com	
+127.0.0.1	video-nrt.cdninstagram.com	
+127.0.0.1	video-nrt1-1.cdninstagram.com	
+127.0.0.1	creative-nrt1-2.cdninstagram.com	
+127.0.0.1	dragon-nrt1-2.cdninstagram.com	
+127.0.0.1	external-nrt1-2.cdninstagram.com	
+127.0.0.1	platform-nrt1-2.cdninstagram.com	
+127.0.0.1	scontent-a-nrt1-2.cdninstagram.com	
+127.0.0.1	scontent-b-nrt1-2.cdninstagram.com	
+127.0.0.1	scontent-nrt1-2.cdninstagram.com	
+127.0.0.1	static-nrt1-2.cdninstagram.com	
+127.0.0.1	video-nrt1-2.cdninstagram.com	
+127.0.0.1	creative-hkt.cdninstagram.com	
+127.0.0.1	creative-hkt1-1.cdninstagram.com	
+127.0.0.1	dragon-hkt.cdninstagram.com	
+127.0.0.1	dragon-hkt1-1.cdninstagram.com	
+127.0.0.1	external-hkt.cdninstagram.com	
+127.0.0.1	external-hkt1-1.cdninstagram.com	
+127.0.0.1	platform-hkt.cdninstagram.com	
+127.0.0.1	platform-hkt1-1.cdninstagram.com	
+127.0.0.1	scontent-a-hkt.cdninstagram.com	
+127.0.0.1	scontent-a-hkt1-1.cdninstagram.com	
+127.0.0.1	scontent-b-hkt.cdninstagram.com	
+127.0.0.1	scontent-b-hkt1-1.cdninstagram.com	
+127.0.0.1	scontent-hkt.cdninstagram.com	
+127.0.0.1	scontent-hkt1-1.cdninstagram.com	
+127.0.0.1	static-hkt.cdninstagram.com	
+127.0.0.1	static-hkt1-1.cdninstagram.com	
+127.0.0.1	video-hkt.cdninstagram.com	
+127.0.0.1	video-hkt1-1.cdninstagram.com	
+127.0.0.1	creative-hkt1-2.cdninstagram.com	
+127.0.0.1	dragon-hkt1-2.cdninstagram.com	
+127.0.0.1	external-hkt1-2.cdninstagram.com	
+127.0.0.1	platform-hkt1-2.cdninstagram.com	
+127.0.0.1	scontent-a-hkt1-2.cdninstagram.com	
+127.0.0.1	scontent-b-hkt1-2.cdninstagram.com	
+127.0.0.1	scontent-hkt1-2.cdninstagram.com	
+127.0.0.1	static-hkt1-2.cdninstagram.com	
+127.0.0.1	video-hkt1-2.cdninstagram.com	
+#    Instagram End	
 
-# 顺手修一下Steam
-# Steam Start
-127.0.0.1 store.steampowered.com
-127.0.0.1 steamcommunity.com
-# Steam end
+#	WallHaven.cc    Start
+127.0.0.1	wallhaven.cc
+127.0.0.1	www.wallhaven.cc
+127.0.0.1	w.wallhaven.cc
+127.0.0.1	th.wallhaven.cc
+127.0.0.1	static.wallhaven.cc
+127.0.0.1	alpha.wallhaven.cc
+#	WallHaven.cc    End
 
-# AO3 Start
-127.0.0.1 archiveofourown.org
-# AO3 end
+#	Reddit	Start
+127.0.0.1	reddit.com
+127.0.0.1	www.reddit.com
+127.0.0.1	www.redditmedia.com
+127.0.0.1	www.redditstatic.com
+127.0.0.1	w3-reporting.reddit.com
+127.0.0.1	error-tracking.reddit.com
+127.0.0.1	redd.it
+127.0.0.1	i.redd.it
+127.0.0.1	v.redd.it
+127.0.0.1	preview.redd.it
+127.0.0.1	external-preview.redd.it
+127.0.0.1	packaged-media.redd.it
+127.0.0.1	a.thumbs.redditmedia.com
+127.0.0.1	b.thumbs.redditmedia.com
+127.0.0.1	styles.redditmedia.com
+127.0.0.1	emoji.redditmedia.com
+#	Reddit	End
 
-# Exhentai Start
-127.0.0.1 exhentai.org
-127.0.0.1 e-hentai.org
-127.0.0.1 forums.e-hentai.org
-# Exhentai end
-
-# Nyaa Start
-127.0.0.1	nyaa.si
-127.0.0.1	www.nyaa.si
-127.0.0.1	sukebei.nyaa.si
-# Nyaae End
+#	imgur	Start
+127.0.0.1 imgur.com
+127.0.0.1 i.imgur.com
+#	imgur	End
