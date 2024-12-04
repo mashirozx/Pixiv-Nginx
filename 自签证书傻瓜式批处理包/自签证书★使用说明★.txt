@@ -6,7 +6,12 @@
 导入根证书具体操作：双击打开rootCA.crt，点击“安装证书”，进入“证书导入向导”，存储位置选择“本地计算机”，单击“下一步”继续，选择“将所有的证书都放入下列存储”，然后点击“浏览”，选择“受信任的根证书颁发机构”，然后点击“确定”，然后点击“下一步”，最后点击“完成”
 
 
-3.需要添加域名时打开「config_childCA.txt」加入，完后使用「【修改config_childCA.txt后使用】重新签发子证书.bat」，将新生成的Pixiv.net.crt和Pixiv.net.key替换Nginx目录原先的文件，在系统host文件添加「127.0.0.1 域名」的字段, 并修改根目录「/conf/pixiv.conf」。
+3.需要添加域名时打开「config_childCA.txt」加入
+
+
+4.修改完后使用「【修改config_childCA.txt后使用】重新签发子证书.bat」，将新生成的「Pixiv.net.crt」和「pixiv.net.key」替换Nginx证书目录「/conf/ca」原先的文件，在系统host文件添加「127.0.0.1 域名」的字段
+
+5.配置文件更新时仅需进行修改「config_childCA.txt」然后进行第4步
 
 
 生成的子证书存放目录：nginx安装目录/conf/ca
