@@ -4,5 +4,4 @@
 	branch = master
 [submodule "third-party-GUI/Racpast-GUI"]
 	path = third-party-GUI/Racpast-GUI
-	url = https://github.com/racpast/Pixiv-Nginx-GUI.git
-	branch = main
+	url = https://github.com/racpast/SNIBypassGUI.git
