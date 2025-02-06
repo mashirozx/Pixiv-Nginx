@@ -157,6 +157,8 @@ DNS.0143	 = 	*.fbcdn.net
 DNS.0144	 = 	*.xx.fbcdn.net
 DNS.0145	 = 	imgur.com
 DNS.0146	 = 	*.imgur.com
+DNS.0147	 = 	greasyfork.org
+DNS.0148	 = 	*.greasyfork.org
 
 			
 			
